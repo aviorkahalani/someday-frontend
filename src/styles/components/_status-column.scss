@@ -1,0 +1,16 @@
+.status-column {
+  position: relative;
+  width: 120px;
+
+  .status-text {
+    @include flex;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    font-weight: 600;
+
+    // &:hover {
+    //     font-weight: 900;
+    // }
+  }
+}
